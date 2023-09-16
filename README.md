@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+React Project Setup:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Install Visual Studio Code: If you haven't already, download and install Visual Studio Code.
+Install Dependencies: Open your project directory in the terminal and execute npm install to fetch all the required packages.
+Start the Project: Run npm run start in the terminal to launch the development server.
+React Project Features:
 
-## Available Scripts
+Add a User: Easily add a new user with all the necessary details.
+Search for a User: Quickly find users by searching with their names or email addresses.
+Edit User Information: Update the first name of an existing user effortlessly.
+Delete a User: Remove a user from the system with ease.
+Java Project (Spring Boot) Setup:
 
-In the project directory, you can run:
+Install Prerequisites: Make sure you have Java installed on your system.
+Download Spring Boot STS IDE: Download and install the Spring Tool Suite (STS) IDE.
+Maven Update: In STS, right-click on your project and choose "Maven" -> "Update Project."
+Maven Clean and Install: Right-click on the project, select "Run As" -> "Maven clean," and then "Run As" -> "Maven install."
+Run the Application: Launch your Spring Boot application.
+Java Project (Spring Boot) Features:
 
-### `npm start`
+Same features as the React project, including adding, searching, editing, and deleting users.
+AWS Interaction:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Log In: Access your AWS account using your login credentials.
+Navigate to Services: Head to the AWS Services dashboard.
+Locate SQS: In the search bar, type "Simple Queue Service" or "SQS" and select it.
+Open Pre-configured Queue: Click on the pre-configured queue.
+Send and Receive Messages: Utilize the "Send and Receive Messages" button.
+Send a Message: Input your message in the field and click "Send."
+Check Application Console: The Java application will consume the message from the AWS SQS queue, and you'll observe the message logged in the application console, thanks to the continuous monitoring by the JMS listener.
+Running Test Cases:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Execute JUnit Tests: Right-click on your project in your IDE and select "Run JUnit tests." Ensure that all tests pass successfully, as the JUnit tests are already written and configured.
